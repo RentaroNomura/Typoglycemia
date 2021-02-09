@@ -316,6 +316,6 @@ def shuffle(input_word):
 
     return shuffled_word
 
-gui_init("Typoglycemia", "800x500")
+gui_init("Typoglycemia", "800x550")
 
 gui_build()
