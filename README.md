@@ -17,4 +17,4 @@ I deployed two mode. English mode(EM) and Japanese mode(JP).
 
 **JP mode:** You can select this mode from radioButton placed upper-right corner of the window. In this mode, you can input a space and characters in "Zenkaku" including "Kanji" but if you use "Kanji", It'll be automatically converted to "Hiragana". 
 
-I used @pykakasi to realize this feature and I'm alredy aware of some errors in convertion.
+I used *pykakasi* to realize this feature and I'm alredy aware of some errors in convertion.
