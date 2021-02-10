@@ -1,6 +1,6 @@
 # Typoglycemia
 Typoglycemia written in Python.
-I tested this code only on macOS, if there are any issuses feel free to leave message in the isuues section of this repository.
+I tested this code only on macOS. If you find any issuses, feel free to leave message in the isuues section of this repository.
 
 # Library requirements
 - Python 3
