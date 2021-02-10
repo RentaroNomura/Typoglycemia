@@ -11,6 +11,9 @@ I tested this code only on macOS, if there are any issuses feel free to leave me
 
 # How to use
 This program converts the text whitch you type in the text filed into Typoglycemia.
+
+- **Mode**
+
 I deployed two mode. English mode(EN) and Japanese mode(JP).
 
 **EN mode:** This mode is default 
@@ -19,7 +22,7 @@ I deployed two mode. English mode(EN) and Japanese mode(JP).
 
 I used *pykakasi* to realize this feature and I'm alredy aware of some errors in convertion. just take it easy!
 
-**Buttons:**
+- **Buttons:**
 
 I arranged four buttons. Here are the descriptions.
 
