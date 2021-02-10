@@ -19,10 +19,16 @@ I deployed two mode. English mode(EM) and Japanese mode(JP).
 
 I used *pykakasi* to realize this feature and I'm alredy aware of some errors in convertion. just take it easy!
 
-**Buttons**
+**Buttons:**
+
 I arranged four buttons. Here are the descriptions.
 
-- convert 
-- hide
-- show
-- reset
+- convert: Typoglycemia of the text you typed will be created and shown on the second label simultaneously, but if you want to change the result you can push this button to change.
+
+- hide: This button is used to hide the text you typed. If you want to see only Typoglycemia, you can use this button.
+
+- show: Once you hide the text you typed, you can make it apper again by pushing this button.
+
+- reset: This button allows you to reset all the widget on the tkinter window, the text field, the text you typed and Typoglycemia will be cleared and you can start over.
+
+**Enjoy Typoglycemia**
