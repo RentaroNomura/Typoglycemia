@@ -70,7 +70,6 @@ def filter(input_sentence):
     return filted_sentence
 
 def call_back(*args): #monitor
-
     monitor_data = input.get()
 
     monitor_data_hiragana_converted = all_hiragana(monitor_data)
@@ -80,17 +79,14 @@ def call_back(*args): #monitor
 
 
 def convert(*args): #typoglycemia
-
     typoglycemia.set(adjuster(make_typoglycemia(all_hiragana(input.get())), new_line_limits, new_line_limits_zenkaku))
 
 def gui_init(window_title, window_size):
-
     main_window.title(str(window_title))
     main_window.geometry(str(window_size))
     main_window.resizable(width=False, height=True)
 
 def gui_build():
-
     main_frame = tk.Frame(main_window, background=background_color)
 
     font_heading = font.Font(family='Helvetica', size=23, weight='bold')
@@ -113,7 +109,6 @@ def gui_build():
     body_textfiled = tk.Entry(body_frame, textvariable=input)
 
     def on_write(*args):
-
         status = lang_status.get()
 
         if status == 0: #EN
@@ -152,7 +147,6 @@ def gui_build():
     body_space_2 = tk.Label(body_frame, text="\n", background=background_color)
 
     def reset():
-
         body_textfiled.delete(0, tk.END)
         body_input_monitor.grid()
         main_window.update_idletasks()
@@ -246,7 +240,6 @@ def adjuster(input, words, words_zenkaku):
         messagebox.showwarning("Error", "ERROR\n format eroor")
 
 def make_typoglycemia(input_sentence):
-
     status = lang_status.get()
 
     if input_sentence == "":
@@ -275,11 +268,10 @@ def make_typoglycemia(input_sentence):
     return typoglycemia
 
 def shuffle(input_word):
-
     space_replace =False
 
     if input_word == "　":
-        space_replace = Trued
+        space_replace = True
         input_word = input_word.replace("　", " ")
 
     if input_word =="":
@@ -316,6 +308,6 @@ def shuffle(input_word):
 
     return shuffled_word
 
-gui_init("Typoglycemia", "800x550")
+gui_init("Typoglycemia", "800x500")
 
 gui_build()
