@@ -12,6 +12,7 @@ I tested this code only on macOS, if there are any issuses feel free to leave me
 # How to use
 This program converts the text whitch you type in the text filed into Typoglycemia.
 I deployed two mode. English mode(EM) and Japanese mode(JP).
+
 **EN mode:** this mode is default 
 **JP mode:** you can select this mode from radioButton placed upper-right corner of the window.
 
