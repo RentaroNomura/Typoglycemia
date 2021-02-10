@@ -11,7 +11,7 @@ I tested this code only on macOS, if there are any issuses feel free to leave me
 
 # How to use
 This program converts the text whitch you type in the text filed into Typoglycemia.
-I deployed two mode. English mode(EM) and Japanese mode(JP).
+I deployed two mode. English mode(EN) and Japanese mode(JP).
 
 **EN mode:** This mode is default 
 
@@ -30,5 +30,7 @@ I arranged four buttons. Here are the descriptions.
 - show: Once you hide the text you typed, you can make it apper again by pushing this button.
 
 - reset: This button allows you to reset all the widget on the tkinter window, the text field, the text you typed and Typoglycemia will be cleared and you can start over.
+
+
 
 **Enjoy Typoglycemia**
