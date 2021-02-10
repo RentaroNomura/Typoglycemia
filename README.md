@@ -14,5 +14,6 @@ This program converts the text whitch you type in the text filed into Typoglycem
 I deployed two mode. English mode(EM) and Japanese mode(JP).
 
 **EN mode:** this mode is default 
+
 **JP mode:** you can select this mode from radioButton placed upper-right corner of the window.
 
