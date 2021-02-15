@@ -311,3 +311,4 @@ def shuffle(input_word):
 gui_init("Typoglycemia", "800x500")
 
 gui_build()
+
